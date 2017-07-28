@@ -1,0 +1,8 @@
+.welcome {
+  height: 720px;
+  width: 1280px;
+  background: url(../assets/welcome.jpg) no-repeat;
+  background-size: 1280px 720px;
+  padding-top: 200px;
+  padding-left: 390px;
+}

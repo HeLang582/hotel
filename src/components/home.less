@@ -1,0 +1,132 @@
+.background{
+  width: 1280px;
+  height: 720px;
+  margin: 0 auto;
+  background-image: url("../assets/home_background.png");
+  .homeMenu{
+    width: 1280px;
+    height: 410px;
+    position: relative;
+    top: 160px;
+    .DirectIcon{
+      width: 40px;
+      height: 410px;
+      line-height: 410px;
+      float: left;
+      img{
+        width: 40px;
+        height: auto;
+        display: inline-block;
+      }
+    }
+    .itemContent{
+      float: left;
+      width: 1200px;
+      .item{
+        width: 226px;
+        height: 410px;
+        float: left;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 5px;
+        img{
+          width: 215px;
+          height: auto;
+          display: inline-block;
+          position: relative;
+          top: 30px;
+          border-radius: 5px;
+        }
+        .itemNameBg {
+          width: 215px;
+          height: 35px;
+          background-color: black;
+          filter:alpha(Opacity=40);
+          -moz-opacity:0.4;
+          opacity: 0.4;
+          position: relative;
+          bottom: 10px;
+          left: 6px;
+        }
+        .itemName{
+          width: 220px;
+          height: 35px;
+          line-height: 35px;
+          text-align: left;
+          font-size: 20px;
+          color: white;
+          position: relative;
+          bottom: 65px;
+          left:-20px;
+          .itemIcon{
+            display: none;
+          }
+          span{
+            color: white;
+            width: 180px;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+          }
+        }
+      }
+      .active{
+        width: 285px;
+        height: 395px;
+        float: left;
+        text-align: center;
+        position: relative;
+        top:-50px;
+        overflow: hidden;
+        border-radius: 10px;
+        border: 5px solid deepskyblue;
+        img{
+          width: auto;
+          height: 405px;
+          position: relative;
+          top: -5px;
+        }
+        .itemNameBg{
+          position: relative;
+          bottom:65px;
+          left: 0;
+          width: 285px;
+          height: 50px;
+          background-color: black;
+          filter:alpha(Opacity=40);
+          -moz-opacity:0.4;
+          opacity: 0.4;
+        }
+        .itemName{
+          width: 285px;
+          height: 50px;
+          line-height: 50px;
+          text-align: left;
+          font-size: 25px;
+          color: white;
+          position: relative;
+          bottom: 119px;
+          left: 25px;
+          .itemIcon{
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            border-radius: 0;
+            position: relative;
+            top:-20px;
+          }
+          span{
+            position: relative;
+            top: -14px;
+            left:-35px;
+            color: white;
+            width: 180px;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+}

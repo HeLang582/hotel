@@ -1,0 +1,106 @@
+.welcomePanel {
+  width: 500px;
+  height: 150px;
+  position: relative;
+  margin-top: -153px;
+}
+.backgroundStyle{
+  width: 500px;
+  height: 150px;
+  background-color: #000;
+  filter:alpha(Opacity=50);
+  -moz-opacity:0.5;
+  opacity: 0.5;
+}
+span {
+  color: orange;
+  margin-top: 20px;
+  margin-left: 50px;
+  display: inline-block;
+}
+.welcomePanel p{
+  line-height: 45px;
+  border-top:solid 2px orange;
+  text-align: center;
+  height: 45px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: -70px;
+  position: relative;
+}
+
+.buttonBox{
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  filter:alpha(Opacity=50);
+  -moz-opacity:0.5;
+  opacity: 0.5;
+  float: left;
+  position: relative;
+  left: -100px;
+  top: 2px;
+}
+.chineseButton{
+  width: 100px;
+  height: 100px;
+  border: 0;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  position: relative;
+  z-index: 1;
+  margin-left: 137px;
+}
+.englishButton{
+  width: 100px;
+  height: 100px;
+  border: 0;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  position: relative;
+  z-index: 1;
+  margin-left: -80px;
+}
+.activeBox{
+  width: 98px;
+  height: 98px;
+  background-color: #000;
+  filter:alpha(Opacity=50);
+  -moz-opacity:0.5;
+  opacity: 0.5;
+  float: left;
+  position: relative;
+  right: 100px;
+  top: 0px;
+  border: solid 2px deepskyblue;
+}
+.logo{
+  width: 100px;
+  height: auto;
+  text-align: center;
+  color: orange;
+  position: relative;
+  top:-90px;
+  left: 200px;
+}
+.logo img{
+  width: 100px;
+  height: auto;
+}
+.logo span{
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  left: -50px;
+}
+.roomNum{
+  position: absolute;
+  top:0;
+  right: 25px;
+}

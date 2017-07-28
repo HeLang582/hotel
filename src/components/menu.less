@@ -1,0 +1,178 @@
+.backgroundPage{
+  height: 720px;
+  width: 1280px;
+  background: url(../assets/home_background.png) no-repeat;
+  background-size: 1280px 720px;
+
+  .backgroundPanel{
+    width: 1190px;
+    height: 410px;
+    background-color: black;
+    filter:alpha(Opacity=40);
+    -moz-opacity:0.4;
+    opacity: 0.4;
+    position: relative;
+    top: 135px;
+    left: 45px;
+    border-radius: 10px;
+  }
+
+  .menuBox{
+    width: 1190px;
+    height: 410px;
+    position: absolute;
+    top: 135px;
+    margin-left: 45px;
+    .titleIcon{
+      width: 100%;
+      height: 100px;
+      span{
+        color: #0ca3c2;
+        font-size: 25px;
+        margin-left: 30px !important;
+        &:nth-child(1){
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          position: relative;
+          left: 10px;
+          border-radius: 10px;
+          border: 3px solid #0ca3c2;
+        }
+      }
+    }
+    .tabsBox{
+      width: 100%;
+      height: 225px;
+      .tabsContent{
+        width: 1060px;
+        height: 202px;
+        margin: 0 auto;
+        float: left;
+        .tab{
+          width: 265px;
+          height: 100%;
+          float: left;
+          text-align: center;
+          p{
+            font-size: 22px;
+            color: white;
+            width: 265px;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+          }
+          //正常状态显示效果
+          .imgShell{
+            width: 218px;
+            height: 160px;
+            background-color: white;
+            border-radius: 6px;
+            margin: 0 auto;
+            img{
+              width: 206px;
+              height: 148px;
+              margin: 6px;
+            }
+          }
+          //当前活动状态显示效果
+          .active{
+            width: 244px;
+            height: 178px;
+            background-color: white;
+            border: 2px solid deepskyblue;
+            border-radius: 7px;
+            margin: -20px auto 0;
+            img{
+              width: 234px;
+              height: 168px;
+              margin: 5px;
+            }
+            & + p{
+              font-size: 24px !important;
+              color: orange !important;
+            }
+          }
+        }
+      }
+      //direct,imgIcon作为公共部分提取出来，只写一次
+      .direct{
+        width: 55px;
+        height: 202px;
+        float: left;
+        line-height: 202px;
+      }
+      .imgIcon{
+        width: 55px;
+        height: auto;
+        display: inline-block;
+      }
+      .directLeft{
+        .direct;
+        margin-left: 10px;
+        img{
+          .imgIcon;
+          position: relative;
+          left: 10px;
+        }
+      }
+      .directRight{
+        .direct;
+        img{
+          .imgIcon;
+          position: relative;
+          right: 10px;
+        }
+      }
+    }
+    .abstract{
+      width: 1070px;
+      height: 65px;
+      text-align: center;
+      color: white;
+      font-size: 15px;
+      line-height: 1.8em;
+      padding: 0 60px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+    }
+    .InforContent{
+      width: 1060px;
+      height: 250px;
+      margin: -15px auto 0;
+      div:nth-child(1){
+        width: 405px;
+        height: 285px;
+        float: left;
+        overflow: hidden;
+        img{
+          width: 405px;
+          height: auto;
+        }
+      }
+      div:nth-child(2){
+        width: 570px;
+        height: 100%;
+        font-size: 15px;
+        color: white;
+        float: left;
+        padding-left: 50px;
+        line-height: 2em;
+        h2{
+          padding: 0;
+          margin: 0;
+          font-size: 26px;
+        }
+        p{
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 8;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+
+}
